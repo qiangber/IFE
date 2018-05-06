@@ -1,0 +1,27 @@
+body {
+	font-family: "Microsoft YaHei", 微软雅黑;
+}
+
+span {
+	margin-left: 0.5em;
+}
+
+section strong {
+	margin-left: 3em;
+}
+
+section strong:first-of-type {
+	margin-left: 0em;
+}
+
+section h1 {
+	font-size: 2em;
+}
+
+article section h4, p {
+	margin: 0;
+}
+
+article section p:nth-of-type(1) {
+	margin-bottom: 1em;
+}

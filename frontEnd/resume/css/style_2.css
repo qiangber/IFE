@@ -1,0 +1,44 @@
+body {
+	width: 60%;
+	margin: 0 auto;
+	font-family: "Microsoft YaHei", 微软雅黑;
+}
+
+span {
+	margin-left: 0.5em;
+}
+
+section strong {
+	margin-left: 3em;
+}
+
+section strong:first-of-type {
+	margin-left: 0em;
+}
+
+article section h4, p {
+	margin: 0;
+}
+
+article section p:nth-of-type(1) {
+	margin-bottom: 1em;
+}
+
+#resume {
+	float: left;
+	width: 25%;
+	height: 705px;
+	padding-top: 5%;
+	background-color: #0091EA;
+}
+
+#resume h1 {
+	font-size: 2em;
+	color: white;
+	text-align: center;
+}
+
+article {
+	float: right;
+	width: 72%;
+}

@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	font-family: "Microsoft YaHei", 微软雅黑;
+}
+
+span {
+	margin-left: 0.5em;
+}
+
+section strong {
+	margin-left: 3em;
+}
+
+section strong:first-of-type {
+	margin-left: 1%;
+}
+
+
+article section {
+	border: 2px solid #EEEEEE;
+}
+
+section h1 {
+	background-color: #757575;
+	color: white;
+	font-size: 2em;
+	margin: 0;
+	padding: 2%;
+}
+
+section h2 {
+	background-color: #E0E0E0;
+	margin: 0;
+	padding: 4% 2%;
+	float: left;
+}
+
+.content {
+	min-height: 125px;
+	margin: 1%;
+}
+
+article section h4, p {
+	display: inline;
+}
+
+article section h4:nth-of-type(2)::before {
+	content: "\A";
+	white-space: pre-line;
+}
