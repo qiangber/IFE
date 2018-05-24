@@ -1,0 +1,109 @@
+html {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.info-box {
+  width: 450px;
+  height: 400px;
+  position: fixed;
+  top: 0;
+}
+
+.info-box ul {
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.info-box li {
+	float: left;
+	list-style-type: none;
+	width: 150px;
+}
+
+.info-box li a {
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	line-height: 3;
+	background-color: #D50000;
+	color: #212121;
+	text-align: center;
+}
+
+.info-box li a:focus, .info-box li a:hover {
+	background-color: #A60000;
+	color: #FAFAFA;
+}
+
+.info-box li a.active {
+	background-color: #A60000;
+	color: #FAFAFA;
+}
+
+.info-box .panels {
+	height: 352px;
+	position: relative;
+	clear: both;
+}
+
+.info-box article {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 352px;
+	padding: 10px;
+	color: #FAFAFA;
+	background-color: #A60000;
+}
+
+.info-box .active-panel {
+	z-index: 1;
+}
+
+.fake-content {
+	background-color: #A60000;
+	color: #FAFAFA;
+	padding: 10px;
+	height: 2000px;
+	margin-left: 470px;
+}
+
+label[for="toggle"] {
+	font-size: 3em;
+	position: absolute;
+	top: 4px;
+	right: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+	position: absolute;
+	top: -100px;
+}
+
+aside {
+	position: fixed;
+	top: 0;
+	right: -370px;
+
+	width: 340px;
+	height: 98%;
+	padding: 10px 1%;
+
+	background-color: #212121;
+	color: #FAFAFA;
+	transition: all 0.6s;
+}
+
+input[type=checkbox]:checked + aside {
+	right: 0px;
+}

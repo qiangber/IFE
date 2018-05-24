@@ -1,0 +1,37 @@
+header, footer {
+	background-color: green;
+}
+
+.container {
+	position: relative;
+}
+
+.left {
+	position: absolute;
+
+	width: 300px;
+	top: 0;
+	left: 0;
+
+	background-color: blue;
+}
+
+.middle {
+	margin: 0 300px;
+
+	background-color: red;
+}
+
+.middle-content {
+
+}
+
+.right {	
+	position: absolute;
+
+	width: 300px;
+	top: 0;
+	right: 0;
+
+	background-color: blue;
+}

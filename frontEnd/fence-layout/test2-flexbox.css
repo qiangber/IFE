@@ -1,0 +1,19 @@
+header, footer {
+	background-color: green;
+}
+
+.container {
+	display: flex;
+}
+
+.left {
+	width: 300px;
+
+	background-color: red;
+}
+
+.right {
+	flex: 1;
+
+	background-color: blue;
+}

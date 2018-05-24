@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header {
+	position: relative;
+	top: 0;
+
+	width: 100%;
+
+	color: #FAFAFA;
+
+	background-color: #424242;
+}
+
+header .container {
+	position: relative;
+	
+	padding: 15px 0;
+	width: 960px;
+	margin: 0 auto;
+
+	font-size: 1.5em;
+}
+
+header nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+header nav a:link, a:visited{
+	font-size: 0.6em;
+	color: #FAFAFA;
+}
+
+.banner {
+	width: 100%;
+
+	background-color: #388E3C;
+}
+
+.banner .wrapper {
+	position: relative;
+
+	width: 960px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.banner .num {
+	position: absolute;
+	
+	margin-bottom: 10px;
+	bottom: 0;
+	right: 0;
+}
+
+.banner .num a {
+	padding: 1px 5px;
+	border: 1px solid #212121;
+
+	text-decoration: none;
+	
+	color: #212121;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.banner .num a:hover {
+	padding: 15px 5px 1px 5px;
+
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.nav {
+	border-bottom: 1px solid #757575
+}
+
+.nav .wrapper {
+	position: relative;
+	
+	height: 100px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.nav .wrapper nav {
+	position: absolute;
+
+	bottom: 10px;
+}
+
+.nav .wrapper nav a {
+	box-sizing: border-box;
+	padding: 10px 15px;
+	border-radius: 10px 10px 0 0;
+	border: 1px solid #757575;
+	
+	color: #424242;
+	text-decoration: none;
+}
+
+.nav .wrapper nav a:link {
+	background: #E0E0E0;
+}
+
+.nav .wrapper nav a.active {
+	border-bottom: 2px solid #FAFAFA;
+
+	background: #FAFAFA;
+}
+
+.nav .wrapper nav a:focus {
+	border-bottom: 2px solid #FAFAFA;
+
+	background: #FAFAFA;
+}
+
+.content {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 960px;
+	margin: 5px auto;
+}
+
+.content .box {
+	flex: 1;
+
+	padding: 80px;
+	margin: 5px;
+	border: 1px solid #757575;
+
+	text-align: center;
+}
+
+footer {
+	width: 100%;
+	height: 120px;
+	
+	color: #FAFAFA;
+	font-size: 1em;
+	
+	text-align: center;
+
+	background-color: #616161;
+}
+
+footer .copyright-text {
+	padding-top: 10px;
+	
+	margin: 0 auto;
+}
+
+footer .copyright-text a {
+	text-decoration: none;
+}

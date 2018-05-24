@@ -1,0 +1,36 @@
+header, footer {
+	margin: 0;
+	width: 100%;
+
+	background-color: green;
+}
+
+header h3, footer h3 {
+	margin: 0;
+}
+
+footer {
+	
+}
+
+.container {
+	overflow: hidden;
+}
+
+.left {
+	position: absolute;
+	
+	left: 0;
+	width: 30%;
+
+	background-color: red;
+}
+
+.right {
+	position: absolute;
+
+	right: 0;
+	width: 70%;
+
+	background-color: blue;
+}

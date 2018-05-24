@@ -1,0 +1,33 @@
+header, footer {
+	background-color: green;
+}
+
+.container {
+	overflow: hidden;
+}
+
+.left {
+	float: left;
+
+	width: 300px;
+
+	background-color: blue;
+}
+
+.middle {
+	float: left;
+
+	width: 300px;
+
+	background-color: red;
+}
+
+.middle-content {
+
+}
+
+.right {
+	overflow: hidden;
+
+	background-color: blue;
+}
